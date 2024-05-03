@@ -1,0 +1,17 @@
+.but-ton{
+    display: flex;
+    padding: 10px;
+}
+button{
+    margin-left: 20px;
+}
+.button{
+    color: white;
+    padding: 100px;
+    border-color: black;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 600; 
+}

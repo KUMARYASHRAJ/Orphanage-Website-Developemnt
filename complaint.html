@@ -1,0 +1,73 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="submit.css">
+    <link rel="stylesheet" href="style1.css">
+    <title>HELP US</title>
+</head>
+<body>
+    <DIV class="t">
+    <div class="container">
+        <header>COMPLAINTS</header>
+
+        <form action="complaints.php" method="post" name="resgistra">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>First Name</label>
+                            <input name="firstname" id="firstname" type="text" placeholder="Enter Your First Name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Last Name</label>
+                            <input name="lastname" id="lastname" type="text" placeholder="Enter Your Last Name" required>
+                        </div>
+                    </div>
+                     <div class="fields">
+                        <div class="input-field">
+                            <label>Date of Birth</label>
+                            <input name="dob" id="dob" type="date" placeholder="Enter birth date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input name="email" id="email" type="text" placeholder="Enter Your Email" required>
+                        </div>
+                     </div>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input name="mobilenumber" id="mobilenumber" type="number" placeholder="Enter Mobile Number" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <input name="gender" id="gender" type="text" placeholder="Enter Your gender" required>
+                        </div>
+                    </div>
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Reason for complaint</label>
+                            <input name="reason" id="reason" type="text" placeholder="Enter your Reason" required>
+                        </div>
+                        <div class="input-field">
+                            <label>Address</label>
+                            <input name="address" id="address" type="text" placeholder="Enter Your Full Address" required>
+                        </div>
+                    </div>
+                    <div class="but-ton">
+                        <button name="submit" id="submit" type="submit">Submit</button>
+                        <button onclick="location.href='complaint.html'">RESET</button>
+                        <button onclick="location.href='orphanage.html'">Back</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</DIV>
+</body>
+</html>

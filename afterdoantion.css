@@ -1,0 +1,37 @@
+.b{
+    display: flex;
+}
+.header h2{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 200px;
+    padding-left: 110px;
+}
+.header p{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-bottom: 200px;
+    padding-left: 60px;
+
+}
+button{
+    color: white;
+    padding: 100px;
+    border-color: black;
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 800; 
+    text-transform: uppercase;
+    font-size: larger;
+}
+.a{
+    padding-top: 7px;
+}
+.a img{
+    height: auto;
+    width: 465px;
+    padding-left: 25px;
+}

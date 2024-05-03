@@ -1,0 +1,229 @@
+header {
+  display: block;
+  width: 100%;
+  padding: 30px 2px;
+  margin: 0 auto;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background-color: #141629;
+}
+
+#menu h2{
+  float: left;
+}
+#menu img {
+  width: 115px;
+  height: 100px;
+  margin-left: 30px;
+}
+
+#menu ul li {
+  list-style: none;
+  display: inline;
+}
+
+#menu ul li a {
+  font-size: larger;
+  display: inline-block;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: inherit;
+  padding: 10px 25px;
+  line-height: 80px;
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s linear;
+}
+
+#menu ul li a:hover {
+  color: coral;
+}
+
+.running marquee{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: lightblue;
+  scroll-behavior: smooth;
+  font-size: x-large;
+  color: #000;
+  font-size: bold;
+}
+#top-nav ul.a{
+  list-style-type: none;
+  text-align: center;
+}
+#top-nav ul li{
+  display: inline;
+}
+.read_more {
+  font-size: 17px;
+  background-color: #141629;
+  color: #fff !important;
+  padding: 13px 0px;
+  width: 100%;
+  max-width: 190px;
+  text-align: center;
+  display: inline-block;
+  transition: ease-in all 0.5s;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+.text a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.topnav-right {
+  float: right;
+}
+
+.nav-link {
+  padding-right: 70px;
+  font-size: x-large;
+  color: #fff;
+  text-decoration: none;
+}
+
+.banner-card {
+  position: relative;
+}
+
+.banner-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner-text {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  color: white;
+}
+
+.banner-text h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.banner-text p {
+  font-size: larger;
+}
+
+#group {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: #000;
+  background-color: lightgoldenrodyellow;
+}
+
+.adoption h3 {
+  text-align: center;
+  font-size: bold;
+}
+
+.adoption img {
+  height: 150px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px black;
+}
+
+.donation h3 {
+  text-align: center;
+  font-size: bold;
+
+}
+
+.donation img {
+  height: 150px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px black;
+}
+
+.volunteer h3 {
+  text-align: center;
+  font-size: bold;
+
+}
+
+.volunteer img {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px black;
+  height: 150px;
+}
+
+.complaint h3 {
+  text-align: center;
+  font-size: bold;
+
+}
+
+.complaint img{
+  width: 250px;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px black;
+}
+.gallery h3 {
+  text-align: center;
+  font-size: bold;
+}
+
+.gallery img{
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px black;
+  height: 150px;
+}
+.bottom-nav {
+  background-color: #141629;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom-nav ul {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.bottom-nav ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+.text2 ul {
+  list-style-type: none;
+  font-size: larger;
+}
+
+.text2 p {
+  font-size: larger;
+}
+
+.text p {
+  font-size: larger;
+}
+.submit p{
+  font-size: xx-large;
+  text-align: center;
+  font-style: bold;
+  font-weight: 1000;
+}
