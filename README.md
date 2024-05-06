@@ -1,6 +1,6 @@
 # Orphanage-Website-Developemnt
 
-### Welcome to our Orphanage Webpage Project! This project aims to create a user-friendly and informative webpage for an orphanage, providing a platform to showcase their mission, activities, and opportunities for support. Developed collaboratively by a team of dedicated individuals, this project utilizes HTML, CSS, JavaScript for frontend development, and PHP for backend interactions with the database.
+Welcome to our Orphanage Webpage Project! This project aims to create a user-friendly and informative webpage for an orphanage, providing a platform to showcase their mission, activities, and opportunities for support. Developed collaboratively by a team of dedicated individuals, this project utilizes HTML, CSS, JavaScript for frontend development, and PHP for backend interactions with the database.
 
 Features
 •	Homepage: Introduces the orphanage and its mission, featuring impactful images and compelling storytelling.
